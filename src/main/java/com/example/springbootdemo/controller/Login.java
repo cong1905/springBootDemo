@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 public class Login {
     @RequestMapping(value = {"","/login1"})
     public String login1(Model model){
-        model.addAttribute("欢迎登陆","欢迎登陆！");
+        model.addAttribute("欢迎登陆111","欢迎登陆！111");
         return  "login";
     }
 
